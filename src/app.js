@@ -38,7 +38,7 @@ app.get("/", (req,res)=>{
 
 app.get("/about/*", (req, res) => {
     res.render('404',{
-        notfound:"Sorry This About us page not Exits..!"
+        notfound:"Sorry This About us page not Exits..! <br><br> Click here TO Go Back "
     });
 })
 
